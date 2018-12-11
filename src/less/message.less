@@ -1,0 +1,101 @@
+@import url('./common/_mixin.less');
+
+.message{
+    height: 100%;
+    .font-size(20);
+     background: #fff;
+    .mtop{
+        .margin-bottom(10);
+        color: #fff;
+        .padding-left(22);
+        .padding-right(22);
+        .height(50);
+        .line-height(50);
+        background: #830082;
+        text-align: center;
+        .goback{
+            display: inline-block;
+            .width(70);
+            .height(35);
+            .line-height(35);
+            background: #9a07a0;
+            float: left;
+            .margin-top(8);
+             border-radius: 60% 5px 5px 60% ;
+        }
+        .ye{
+            float: right;
+            display: inline-block;
+            .width(70);
+            .height(35);
+            .margin-top(8);
+            .line-height(35);
+            background: #9a07a0;
+            border-radius: 5px;
+        }
+    }
+    .name,.phone,.m{
+        color: #808080;
+        .height(34);
+        .line-height(34);
+        .margin-left(20);
+        span{color: red;}
+    }
+    .nameinput,.phoneinput{
+        text-align: center;
+        input{
+            .height(40);
+            .width(450);
+             border: 1px solid #ddd;
+             border-radius: 5px;
+            
+        }
+    }
+
+    .phoneinput{
+        text-align: center;
+        input{
+            .height(40);
+            .width(450);
+             border: 1px solid #ddd;
+             border-radius: 5px;
+            
+        }
+    }
+
+    .minput{
+        text-align: center;
+        textarea{
+            .height(230);
+            .width(450);
+             border: 1px solid #ddd;
+             border-radius: 5px;
+            
+        }
+    }
+    .yzm{
+        .padding-left(30);
+        input{
+            .width(120);
+            .height(35);
+             border-radius: 5px;
+             border: 1px solid #ddd;
+             .margin-top(22);
+             .margin-bottom(25);
+        }
+        
+    }
+    .submit{
+        
+        text-align: center;
+        input{
+            color: #fff;
+            .width(410);
+            .height(40);
+            background: #7c007a;
+             border: none;
+             border-radius: 5px;
+        }
+        
+    }
+}

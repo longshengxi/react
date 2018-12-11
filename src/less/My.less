@@ -1,0 +1,131 @@
+@import url('./common/_mixin.less');
+
+.my{
+    height: 100%;
+    background: #eee;
+    .font-size(18);
+    .myTop{
+        .height(278);
+//      background: khaki;
+        border-bottom: 1px solid #eee;
+        background: #fff;
+        .myTT{
+            .height(55);
+//          background: darkgray; 
+            box-sizing: border-box;
+            .padding-top(14);
+            .padding-left(10);
+            .padding-right(10);
+            color: #666;
+            .left{
+                .font-size(25);
+                float: left;
+            }
+            .right{
+                .font-size(25);
+                float: right;
+                span{
+                    .margin-left(15);
+                }
+            }
+        }
+        .user{
+            .height(113);
+//          background: darkgoldenrod;
+            text-align: center;
+            .line-height(113);
+            .font-size(78);
+            color: #aaa;
+        }
+        .mybottom{
+            .height(110);
+//          background: khaki;
+            text-align: center;
+            .font-size(20);
+            span{
+                .line-height(25);
+                color: #9b9b9b;
+            }
+            .usn{
+                 color: #616161;
+            }
+            button{
+                .width(89);
+                 border: 1px solid #616161;
+                 border-radius:10px;
+                 background: #fff;
+                 color: #616161;
+            }
+        }
+    }
+    .Message{
+        .height(50);
+        background: #fff;
+        .padding-left(10);
+        .padding-right(10);
+        .padding-top(20);
+        border-bottom: 1px solid #eee;
+         .Messageleft{
+            float: left;
+        }
+        .Messageright{
+            float: right;
+        }
+          
+    }
+    .assets{
+        .margin-top(5);
+         .height(50);
+        background: #fff;
+        .padding-left(10);
+        .padding-right(10);
+        .padding-top(20);
+        .Messageleft{
+            float: left;
+            .money{
+                color: #fa8260;
+            }
+        }
+        .Messageright{
+            float: right;
+        }
+    }
+    .four{
+        .height(104);
+        background: #fff;
+        .margin-top(-20);
+        display: flex;
+         border-top:1px solid #eee;
+         .margin-bottom(5);
+        div{
+            flex: 1;
+            text-align: center;
+            display: flex;
+            flex-direction:column ;
+            justify-content: center;
+            border-right: 1px solid #eee;
+            .fatu{
+                .font-size(30);
+                color: #616161;
+                .margin-bottom(10);
+            }
+        }
+    }
+    .inputdiv{
+        .height(100);
+        text-align: center;
+         background: #eee;
+        .margin-top(10);
+        input{
+            .height(50);
+            .width(350);
+            background: #fe9900;
+            border: none;
+            color: #fff;
+        }
+    }
+    .last{
+        .height(120);
+        background: #eee;
+    }
+}
